@@ -105,7 +105,7 @@ void main()
 
 		float R, P, S;
 		scanf("%f %f", &P, &S);
-		R = P / S * 100;
+		R = P / (S*0.95) * 100;
 		printf("рентабельность предприятия=%f\n", R);
 	}
 	else if (v == 10) {
